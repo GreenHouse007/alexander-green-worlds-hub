@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Landing page central hub for adult fantasy author Alexander Green. Showcases 4 branded worlds: Mythica (mythic creatures), The Scar Queen (giants/gods world), The Chitin Realms (bug-race RPG world), and Skyline (biohack superhero towers). Tone is passionate, friendly, proudly showing off creative worlds. Each world has its own external website; this page links them all together.",
+  "architectural_notes": [
+    "Single-page landing hub; each world card links out to its own external website",
+    "Tone: passionate, friendly, proudly showing off — like sharing cool work with a friend",
+    "Author name: Alexander Green; adult fantasy genre"
+  ],
+  "known_issues": [
+    "Hero section: text over hero image is hard to read (contrast issue)",
+    "Hero section: scrolling/jumping text animation is distracting"
+  ],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-create-a-full-page-author-hub-landing-page-for-alexander-green-with-a-dark-richly-textured-fantasy-aesthetic-use-deep-earthy-tones-dark-forest-greens-aged-parchment-golds-deep-crimson-accents-with-bold-serif-inspired-typography-for-headings-and-clean-readable-body-text-the-overall-feel-should-be-like-an-explorer-s-journal-adventurous-warm-and-proudly-handcrafted-maintain-this-visual-theme-consistently-across-all-sections",
+      "title": "Create a full-page author hub landing page for Alexander Green with a dark, richly textured fantasy aesthetic. Use deep earthy tones (dark forest greens, aged parchment golds, deep crimson accents) with bold serif-inspired typography for headings and clean readable body text. The overall feel should be like an explorer's journal — adventurous, warm, and proudly handcrafted. Maintain this visual theme consistently across all sections.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-sticky-navigation-header-with-alexander-green-s-name-logo-on-the-left-and-anchor-links-to-the-four-world-sections-and-a-about-section-on-the-right-on-mobile-collapse-into-a-hamburger-menu",
+      "title": "Build a sticky navigation header with Alexander Green's name/logo on the left and anchor links to the four world sections and a 'About' section on the right. On mobile, collapse into a hamburger menu.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-hero-section-at-the-top-of-the-page-that-introduces-alexander-green-with-a-warm-enthusiastic-first-person-tone-as-if-personally-welcoming-a-friend-and-inviting-them-to-explore-his-worlds-include-his-name-as-the-main-headline-a-short-passionate-author-bio-welcome-paragraph-and-a-call-to-action-button-scrolling-down-to-the-worlds-showcase-use-the-generated-hero-background-image",
+      "title": "Create a hero section at the top of the page that introduces Alexander Green with a warm, enthusiastic first-person tone — as if personally welcoming a friend and inviting them to explore his worlds. Include his name as the main headline, a short passionate author bio/welcome paragraph, and a call-to-action button scrolling down to the worlds showcase. Use the generated hero background image.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-worlds-showcase-section-with-four-large-visually-distinct-world-cards-one-per-world-each-card-must-include-the-world-name-a-vivid-2-3-sentence-description-in-alexander-s-enthusiastic-voice-a-distinctive-world-illustration-banner-image-and-a-prominent-explore-button-that-links-to-that-world-s-external-website-use-placeholder-urls-for-now-the-four-worlds-are-1-mythica-a-world-of-mythic-and-legendary-creatures-2-the-scar-queen-a-world-once-ruled-by-giants-but-given-to-mankind-by-the-gods-3-the-chitin-realms-an-rpg-world-of-races-based-on-insects-and-bugs-4-skyline-a-world-of-biohack-enhanced-superheroes-living-in-towers-above-a-toxic-planetary-surface-each-card-should-feel-thematically-unique-in-its-illustration",
+      "title": "Build a 'Worlds' showcase section with four large, visually distinct world cards — one per world. Each card must include: the world name, a vivid 2–3 sentence description in Alexander's enthusiastic voice, a distinctive world illustration/banner image, and a prominent 'Explore' button that links to that world's external website (use placeholder '#' URLs for now). The four worlds are: (1) Mythica — a world of mythic and legendary creatures; (2) The Scar Queen — a world once ruled by giants but given to mankind by the gods; (3) The Chitin Realms — an RPG world of races based on insects and bugs; (4) Skyline — a world of biohack-enhanced superheroes living in towers above a toxic planetary surface. Each card should feel thematically unique in its illustration.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-short-about-alexander-section-below-the-worlds-showcase-include-a-portrait-placeholder-image-on-one-side-and-a-paragraph-of-text-on-the-other-introducing-alexander-green-as-an-adult-fantasy-author-written-in-the-same-warm-proud-friend-sharing-tone-mention-that-each-world-is-a-fully-realized-universe-with-its-own-site-to-dive-deeper-into",
+      "title": "Add a short 'About Alexander' section below the worlds showcase. Include a portrait placeholder image on one side and a paragraph of text on the other introducing Alexander Green as an adult fantasy author, written in the same warm, proud, friend-sharing tone. Mention that each world is a fully realized universe with its own site to dive deeper into.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-footer-with-alexander-green-s-name-and-a-tagline-a-grid-of-quick-links-to-each-of-the-four-world-sections-same-placeholder-urls-and-a-simple-copyright-line-style-it-to-match-the-overall-dark-fantasy-theme",
+      "title": "Create a footer with Alexander Green's name and a tagline, a grid of quick links to each of the four world sections (same '#' placeholder URLs), and a simple copyright line. Style it to match the overall dark fantasy theme.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-improve-text-readability-in-the-hero-section-by-strengthening-the-overlay-contrast-behind-all-headline-and-body-text-elements-increase-the-darkness-opacity-of-the-background-overlay-so-that-the-hero-image-does-not-bleed-through-and-reduce-text-legibility-ensure-the-heading-subheading-and-paragraph-text-all-meet-strong-contrast-ratios-against-the-hero-background-image",
+      "title": "Improve text readability in the hero section by strengthening the overlay/contrast behind all headline and body text elements. Increase the darkness/opacity of the background overlay so that the hero image does not bleed through and reduce text legibility. Ensure the heading, subheading, and paragraph text all meet strong contrast ratios against the hero background image.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-jumping-animated-scrolling-text-element-from-the-hero-section-any-animated-text-that-bounces-jumps-or-loops-as-a-scroll-indicator-or-decorative-element-should-be-removed-or-replaced-with-a-static-non-animated-alternative-if-a-scroll-cue-is-still-desired",
+      "title": "Remove the jumping/animated scrolling text element from the hero section. Any animated text that bounces, jumps, or loops as a scroll indicator or decorative element should be removed or replaced with a static, non-animated alternative if a scroll cue is still desired.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero/intro section introducing Alexander Green with warm, passionate tone",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "World showcase cards/sections for all 4 worlds (Mythica, The Scar Queen, The Chitin Realms, Skyline) with descriptions and links to their respective websites",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Navigation/header linking to the 4 world sections and key page areas",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Footer with author branding and world links",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Alexander Green – Worlds Hub",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
